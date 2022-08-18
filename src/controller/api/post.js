@@ -1,5 +1,5 @@
 const Post = require("../../model/post");
-const baseFiler = require("../../utils/baseFilter");
+const baseFiler = require("../../services/baseFilter");
 
 //GET /api/post
 async function getAllPost(req, res) {
