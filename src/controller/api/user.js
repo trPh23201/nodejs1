@@ -1,6 +1,6 @@
 const knex = require("../../../knexfile");
 const User = require("../../model/user");
-const baseFiler = require("../../utils/baseFilter");
+const baseFiler = require("../../services/baseFilter");
 
 //GET /api/post
 async function getAllUser(req, res) {
